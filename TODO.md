@@ -9,5 +9,5 @@
 > also thie plugin should only be working when inside of a cpp file like how lazydev works with lua
 > thinking of also using a plugin like nui for better ui rather than just vim.ui.input as a default
 
-- [ ] 1. 
+- [ ] 1. start making the command with user input
 
