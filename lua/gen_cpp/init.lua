@@ -6,6 +6,7 @@ function M.generate()
   vim.ui.input(opts, function (input)
     file_name = input
   end)
+  --  TODO: update the plugin to use real file paths
 
   local cwd = vim.fn.getcwd()
   local root_dir_name = vim.fn.fnamemodify(cwd, ":t")
